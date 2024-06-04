@@ -81,8 +81,8 @@ const WordCount = () => {
         : ''
 
     return (
-        <div className="flex justify-center">
-            <div className="max-w-md md:mx-0 mt-10 mx-3 p-5 border border-gray-300 rounded-lg shadow-md">
+        <div className="flex justify-center w-full">
+            <div className="w-full lg:w-2/6 lg:mx-0 mt-10 mx-3 p-5 border border-gray-300 rounded-lg shadow-md">
                 <h1 className="text-2xl font-bold mb-5">Рассчёт слов в день</h1>
                 <div className="mb-4">
                     <label
